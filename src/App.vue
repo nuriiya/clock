@@ -1,15 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ReminderView />
+  <HelloWorld />
+  <ValueEditor />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HelloWorld from './components/HelloWorld.vue';
+import ReminderView from './views/ReminderView.vue';
+import ValueEditor from './views/ValueEditor.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    ReminderView,
+    ValueEditor,
   }
 }
 </script>
