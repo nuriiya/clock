@@ -15,8 +15,6 @@ export default {
     HelloWorld,
     ReminderView,
     ValueEditor,
-
-    
   }
 }
 </script>
