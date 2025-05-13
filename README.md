@@ -1,13 +1,17 @@
-# clock
+# Health Recorder For Diabetic Patients
+
+
+### Home Page
+![image](./homepage.png)
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Start all backend and frontend
 ```
-npm run serve
+npm run start
 ```
 
 ### Compiles and minifies for production
