@@ -22,7 +22,7 @@
         items: [
           { id: 1, label: '血糖值(mmol/L)', value: 5.0 },
           { id: 2, label: '胰岛素剂量(U)', value: 10.0 },
-          { id: 3, label: '心率(bpm)', value: 75.0 }
+          { id: 3, label: '心率(bpm)', value: 7.5 }
         ]
       }
     },
