@@ -20,7 +20,7 @@
             <td>{{ formatDate(record.Timestamp) }}</td>
             <td>{{ record['血糖值(mmol/L)'] }}</td>
             <td>{{ record['胰岛素剂量(U)'] }}</td>
-            <td>{{ record['心率(bpm)'] }}</td>
+            <td>{{ record['距离用餐时间(小时)'] }}</td>
           </tr>
         </tbody>
       </table>
@@ -49,7 +49,7 @@ export default {
     return {
       loading: true,
       records: [],
-      headers: ['时间戳', '血糖值(mmol/L)', '胰岛素剂量(U)', '心率(bpm)'],
+      headers: ['时间戳', '血糖值(mmol/L)', '胰岛素剂量(U)', '距离用餐时间(小时)'],
       error: null
     };
   },

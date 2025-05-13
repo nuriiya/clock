@@ -21,7 +21,7 @@ const csvHeader = [
   { id: 'timestamp', title: 'Timestamp' },
   { id: '血糖值(mmol/L)', title: '血糖值(mmol/L)' },
   { id: '胰岛素剂量(U)', title: '胰岛素剂量(U)' },
-  { id: '心率(bpm)', title: '心率(bpm)' }
+  { id: '距离用餐时间(小时)', title: '距离用餐时间(小时)' }
 ];
 
 // 初始化CSV文件
